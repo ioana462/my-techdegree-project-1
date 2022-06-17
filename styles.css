@@ -11,9 +11,11 @@ body {
   color: #222;
   background: #fce7e7;
 }
+
 .second-page {
   background: #e7f2fc;
 }
+
 .third-page {
   background: #fafce7;
 }
@@ -23,12 +25,15 @@ a {
   text-decoration: none;
   color: rgb(158, 131, 131);
 }
+
 .second .nav a {
   color: rgb(131, 148, 158);
 }
+
 .third .nav a {
   color: rgb(150, 158, 131);
 }
+
 a:hover {
   color: #6633ff;
 }
@@ -43,12 +48,15 @@ a:hover {
   position: fixed;
   text-align: center;
 }
+
 .second {
   background: rgb(8, 62, 112);
 }
+
 .third {
   background: rgb(8, 112, 39);
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -63,15 +71,19 @@ a:hover {
   margin-right: auto;
   color: rgb(158, 131, 131);
 }
+
 .second .nav .name {
   color: rgb(131, 148, 158);
 }
+
 .second .nav .name:hover {
   color: white;
 }
+
 .third .nav .name {
   color: rgb(151, 158, 131);
 }
+
 .third .nav .name:hover {
   color: white;
 }
@@ -79,9 +91,11 @@ a:hover {
 .nav li {
   padding: 5px 10px 10px 10px;
 }
+
 .nav a {
   transition: all 0.5s;
 }
+
 .nav a:hover {
   color: white;
 }
@@ -93,9 +107,11 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+
 header {
   line-height: 1.5;
 }
+
 .second-header {
   text-align: center;
   background: url("images/electrical.jpg") no-repeat top center;
@@ -103,6 +119,7 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+
 .third-header {
   text-align: center;
   background: url("images/books.jpg") no-repeat bottom center;
@@ -119,37 +136,46 @@ header .profile-image {
   border: 2px solid #ffbe99;
   transition: all 0.7s;
 }
+
 .second-header .profile-image {
   border: 2px solid #99e7ff;
 }
+
 .third-header .profile-image {
   border: 2px solid #dbff99;
 }
+
 header .profile-image:hover {
   transform: scale(1.1) rotate(15deg);
 }
+
 .tag {
-  background-color: #9fb4c5;
+  background-color: #c59f9f;
   color: black;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 }
+
 .second-header .tag {
   background-color: #9fb9c5;
 }
+
 .third-header .tag {
   background-color: #b8c59f;
 }
+
 .location {
   background-color: #0a0a0a;
   color: #c59f9f;
 }
+
 .second-header .location {
   background-color: #0a0a0a;
   color: #9fb9c5;
 }
+
 .third-header .location {
   background-color: #0a0a0a;
   color: #bbc59f;
@@ -165,15 +191,19 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all 0.5s;
 }
+
 .second-card {
   background: rgb(190, 215, 226);
 }
+
 .card:hover {
   border-color: #ffbe99;
 }
+
 .second-card:hover {
   border-color: #99d1ff;
 }
+
 ul.skills {
   padding: 0;
   text-align: center;
@@ -187,6 +217,7 @@ ul.skills {
   padding: 5px 10px;
   margin: 2px;
 }
+
 .second-card .skills li {
   background: #70c6ff;
 }
@@ -194,6 +225,7 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #ff4a03;
 }
+
 .second-card .skills li:nth-child(odd) {
   background: #038eff;
 }
@@ -218,6 +250,7 @@ footer ul {
 footer ul li {
   display: inline-block;
 }
+
 .city-image {
   margin-top: 50px;
   width: 150px;
@@ -225,9 +258,11 @@ footer ul li {
   border-radius: 50%;
   border: 2px solid #fce7e7;
 }
+
 .city-image:hover {
   border: 2px solid #ffbe99;
 }
+
 a.social {
   display: inline-block;
   text-indent: -9999px;
@@ -238,18 +273,19 @@ a.social {
   opacity: 0.4;
   transition: all 0.5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
+
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
+
 a.github {
   background-image: url(images/github.svg);
 }
+
 a.social:hover {
   opacity: 1;
 }
+
 .clearfix {
   clear: both;
 }
@@ -296,12 +332,14 @@ a.social:hover {
   text-align: center;
   background-color: #b8c59f;
 }
+
 .hobby-image {
   width: 100px;
   height: 100px;
   opacity: 0;
   transition-duration: 1s;
 }
+
 .hobby-title {
   font-size: 16px;
   min-height: 57px;
